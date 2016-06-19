@@ -35,6 +35,7 @@ ol, ul {
 
 li {
     display: list-item;
+    /*  */
     text-align: -webkit-match-parent;
 }
 
@@ -621,6 +622,7 @@ li {
     padding: 0px;
 }/*#UL_15*/
 
+/*-- Start:  > ul 次级导航览整表*/
 .body_wrap  .primary_nav_li{
     bottom: 0px;
     color: rgb(51, 51, 51);
@@ -640,6 +642,8 @@ li {
     list-style: none outside none;
     outline: rgb(51, 51, 51) none 0px;
 }/*#LI_16*/
+
+/*-- Start: 顶端购物车栏 > ul 次级导航览整表 > dl每行定义列表。 --*/
 
  .body_wrap  .primary_nav_li .nav_warp {
     background-position: 0px 0px;
@@ -662,6 +666,8 @@ li {
     padding: 9px 0px 10px 10px;
 }/*#DL_1*/
 
+/*-- Start: ul 次级导航览整表 >  --*/
+
 .primary_nav_li .primary_nav_dt {
     color: rgb(51, 51, 51);
     cursor: default;
@@ -682,6 +688,8 @@ li {
     overflow: hidden;
 }/*#DT_2*/
 
+/*-- Start: ul 次级导航览整表 >  --*/
+
 .primary_nav_li .primary_nav_dt_a {
     color: rgb(51, 51, 51);
     text-align: left;
@@ -693,6 +701,8 @@ li {
     list-style: none outside none;
     outline: rgb(51, 51, 51) none 0px;
 }/*#A_3*/
+
+/*-- Start: ul 次级导航览整表 >  --*/
 
 .primary_nav_li .primary_nav_dd {
     color: rgb(51, 51, 51);
@@ -714,12 +724,14 @@ li {
     overflow: hidden;
 }/*#DD_4*/
 
-.primary_nav_dd_span {
-    color: rgb(51, 51, 51);
-    cursor: default;
+/*-- Start: li 单行 > dd  描述 > span 行内元素进行组合 --*/
+
+.primary_nav_li .primary_nav_dd .primary_nav_dd_span {
+    /*color: rgb(51, 51, 51);*/
+    /*cursor: default;*/
     display: block;
-    float: left;
-    height: 20px;
+    /*float: left;*/
+    /*height: 20px;*/
     text-align: left;
     white-space: nowrap;
     width: 200px;
@@ -802,6 +814,83 @@ li {
     overflow: hidden;
 }/*#A_8*/
 
+/*-- Start: ul 次级导航览整表 > dl每行定义列表 > i  每行底线 --*/
+
+.primary_nav_li  .nav_warp .primary_bottomLine {
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    /*height: 2px;*/
+    /*background-color: red;*/
+    width: 100%;
+    color: rgb(51,51,51);
+    z-index: 200;
+    border-top: 1px dashed rgb(207,207,207);
+}
+
+/*-- End: ul 次级导航览整表 > dl每行定义列表 > i  每行底线 --*/
+
+/*-- Start: div  中首屏最大块  > div  分块    轮播图& ad  --*/
+.mgj_primary .primary_main {
+
+    margin-top: 20px;
+    width: 975px;
+    height: 530px;
+
+}
+.primary_main_banner {
+
+    width: 715px;
+    margin-left: 20px;
+    height: 530px;
+    border: none;
+    position: relative;
+
+    background-color: black;
+}
+
+.primary_main_banner .mslide_content_box {
+    position: relative;
+    /*overflow: hidden;*/
+
+    background-color: pink;
+}
+/*-- Start: div 分区  左边 > div  分区  内容盒子 > div  分区  轮播  --*/
+.primary_main_banner .mslide_content_box .mslide_banners {
+    position: relative;
+    background-color: #fff;
+    width: 100%;
+    height: 100%;
+
+    background-color: blue;
+}
+
+/*-- Start: div 分区  轮播最外 > div  分区  轮播盒子 > a  从一个页面跳转到另一个  左右按钮  --*/
+.primary_main_banner .mslide_content_box a {
+
+    position: absolute;
+    top: 50%;
+
+    width: 28px;
+    height: 45px;
+    margin-top: -24px;
+
+    opacity: .4;
+    background: url("../img/xuebishangjia15x26.png");
+
+    background-color: #2b3137;
+
+}
+
+/*-- Start: div 分区  轮播最外 > div  分区  轮播盒子 > div  分区  原点盒子  --*/
+.primary_main_banner .mslide_content_box .anim_msilde_dot_box {
+
+
+
+}
+
+
+
 /*.primary_nav_dd_a3 {*/
     /*color: rgb(255, 68, 102);*/
     /*display: block;*/
@@ -829,6 +918,87 @@ li {
     /*!*perspective-origin: 9.67188px 7px;*!*/
     /*!*transform-origin: 9.67188px 7px;*!*/
 /*}!*#A_10*!*/
+
+
+/*-- Start: div 分区  首屏内容满宽 > div  分区  右区 > div  分区  ad  --*/
+.mgj_primary   .primary_main_sale {
+    overflow: hidden;
+    padding-top: 1px;
+    width: 218px;
+    height: 527px;
+    /*overflow: hidden;*/
+
+    background-color: green;
+}
+
+
+/*-- Start: div 分区  首屏内容满宽 > div  分区  ad > li  标签定义列表项  ad单表  --*/
+.mgj_primary .primary_main_sale .sale_li {
+
+    margin: 20px 19px 0;/*T - ho - B*/
+
+    border-bottom: 1px dashed #ddd;
+
+    background-color: red;
+}
+
+/*-- Start: div 分区  首屏内容满宽 > div  分区  ad^div > a  跳转    --*/
+.mgj_primary .primary_main_sale .sale_box {
+
+    position: relative;
+
+    width: 180px;
+    height: 220px;
+    margin: 0 auto 23px;
+
+}
+
+
+
+
+
+
+
+
+/*-- Start: div 分区  右区 >       ul  标签定义无序列表。  广告  --*/
+.primary_main .sale_list {
+
+}
+
+/*-- Start: div 分区  内容主体       > div  分区  616活动满宽  --*/
+.body_wrap ._site_banner_616_center {
+
+    width: 1200px;
+    height: 330px;
+    margin: 60px auto;
+
+    background-color: #985f0d;
+}
+
+
+.body_wrap ._site_banner_616_center li{
+    display: block;
+
+    float: left;
+    width: 16.324%;
+    height: 162px;
+
+    overflow: hidden;
+    margin: 0 4px 4px 0;
+
+    background-color: yellow;
+
+}
+
+.body_wrap ._site_banner_616_center li.main{
+
+    /*height: 216px;*/
+    /*margin-top: -56px;*/
+
+    background-color: black;
+
+
+}
 
 
 
