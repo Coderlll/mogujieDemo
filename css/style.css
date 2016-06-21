@@ -13,6 +13,14 @@ body,html{
     opacity: 1;
     filter: alpha(opacity=100);
 }
+
+/* 板心?? */
+.media_screen_1200 .wrap {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 a {
     text-decoration: none;
     color: #333;
@@ -986,16 +994,16 @@ li {
     overflow: hidden;
     margin: 0 4px 4px 0;
 
-    background-color: yellow;
+    /*background-color: yellow;*/
 
 }
 
 .body_wrap ._site_banner_616_center li.main{
 
-    /*height: 216px;*/
-    /*margin-top: -56px;*/
+    height: 216px;
+    margin-top: -56px;
 
-    background-color: black;
+    /*background-color: black;*/
 
 
 }
@@ -1004,6 +1012,136 @@ li {
 
 /*-- End: 内容主体 > null > null --*/
 
+/*-- Start: 主体展示区 > 首区 > null --*/
+.media_screen_1200 .special_con {
+    width: 1200px;
+    height: 300px;
+    border-top: 1px solid #0c0c0c;
+    margin-top: 80px;
+}
+
+.special_con .sp_col1 {
+    width: 225px;
+    height: 295px;
+    margin-right: 20px;
+    overflow: hidden;
+    border-bottom: 5px solid #f46;
+}
+
+.special_con .sp_col1 .timer-title, .special_con .sp_col1 .timer-con, .special_con .sp_col1 .price-con {
+    z-index: 2;
+    position: absolute;
+    display: block;
+    _text-decoration: none!important;
+}
+
+.special_con .sp_col1 a{
+    position: relative;
+    display: block;
+    top: 0;
+    left: 0;
+
+    width: 223px;
+    height: 295px;
+
+    border: 1px solid #ddd;
+    border-top: none;
+    border-bottom: none;
+
+}
+
+.sp_col1 a img {
+    position: relative;
+    margin-top: 50px;
+    height: 245px;
+    width: 223px;
+
+    /*vertical-align: middle;*/
+}
+
+.sp_col1 .timer-title {
+    width: 100px;
+    height: 24px;
+    top:24px;
+    right: 118px;
+
+    text-align: right;
+    background: url("../img/xianshikuaiqiang.png") right top no-repeat;
+
+}
+
+.sp_col1 .timer-con {
+    top: 24px;
+    right: 0;
+
+    width: 110px;
+    height: 25px;
+    line-height: 22px;
+
+}
+
+/*-- Start: div 分区  首区 > span  小行div的分区作用   倒计时块 > span  时分秒  小型div  --*/
+/*
+    !!! 字体处理教科书
+*/
+.special_con .timer-con .timer-hh, .special_con  .timer-con .timer-mm, .special_con  .timer-con .timer-ss {
+
+
+    height: 24px;
+    line-height: 26px;
+    width: 24px;
+    /* text-align: center; */
+    font-size: 14px;
+    font-family: "Microsoft YaHei";
+    font-weight: 700;
+    -o-border-radius: 2px;
+    /* -webkit-border-radius: 2px; */
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    border-radius: 2px;
+    background-color: #f46;
+    color: #fff;
+}
+
+.special_con  .timer-con span {
+    /* display: block; */
+    
+    float: left;
+    width: 12px;
+    text-align: center;
+    font-size: 16px;
+    color: #f46;
+    vertical-align: top;
+}
+
+.special_con .sp_col23_con {
+
+    width: 575px;
+    height: 300px;
+    overflow: hidden;
+
+    background-color: red;
+
+}
+
+.special_con .sp_col23_con .sp_col2 {
+
+
+}
+
+.special_con .sp_col4 {
+    float: right;
+    width: 360px;
+    height: 300px;
+    overflow: hidden;
+
+    background-color: purple;
+
+}
+
+
+
+/*-- End: 主体展示区 > 首区 > null --*/
 
 
 /*最下边*/
