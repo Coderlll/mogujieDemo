@@ -1,8 +1,4 @@
 
-*{
-    padding: 0;
-    margin: 0;
-}
 
 body,html{
     color: #333;
@@ -47,15 +43,6 @@ li {
     text-align: -webkit-match-parent;
 }
 
-/*清除浮动*/
-.clearfix:after {
-    content: ".";
-    display: block;
-    height: 0;
-    font-size: 0;
-    clear: both;
-    visibility: hidden;
-}
 
 /*右导航*/
 .rightNavigation{
@@ -84,7 +71,7 @@ li {
     z-index: 998;
     line-height: 99px;
 }
-/*-- Start: 顶端购物车栏 > 导航栏 > null --*/
+/*-- Start: 顶端购物车栏        导航栏        null --*/
 
 .titleTop .navigation{
     margin: 0 auto;
@@ -113,7 +100,7 @@ li {
 
 }
 
-/*-- Start: 顶端购物车栏 > 注册 > null --*/
+/*-- Start: 顶端购物车栏        注册        null --*/
 
 .titleTop .navigation ul .sign_in{
 
@@ -134,9 +121,9 @@ li {
 
 
 
-/*-- End: 顶端购物车栏 > 注册 > null --*/
+/*-- End: 顶端购物车栏        注册        null --*/
 
-/*-- Start: 顶端购物车栏 > 登录 > null --*/
+/*-- Start: 顶端购物车栏        登录        null --*/
 
 .titleTop .navigation ul .login_in{
 
@@ -144,9 +131,9 @@ li {
 }
 
 
-/*-- End: 顶端购物车栏 > 登录 > null --*/
+/*-- End: 顶端购物车栏        登录        null --*/
 
-/*-- Start: 顶端购物车栏 > 我的订单 > null --*/
+/*-- Start: 顶端购物车栏        我的订单        null --*/
 
 .titleTop .navigation ul .list{
 
@@ -170,9 +157,9 @@ li {
 }
 
 
-/*-- End: 顶端购物车栏 > 我的订单 > null --*/
+/*-- End: 顶端购物车栏        我的订单        null --*/
 
-/*-- Start: 顶端购物车栏 > 购物车 > null --*/
+/*-- Start: 顶端购物车栏        购物车        null --*/
 
 
 .titleTop .navigation ul .shopping_cat{
@@ -218,9 +205,9 @@ li {
     outline: rgb(153, 153, 153) none 0px;
     padding: 18px 0px;
 }
-/*-- End: 顶端购物车栏 > 购物车 > null --*/
+/*-- End: 顶端购物车栏        购物车        null --*/
 
-/*-- Start: 顶端购物车栏 > 服务 > null --*/
+/*-- Start: 顶端购物车栏        服务        null --*/
 
 .titleTop .navigation ul li.serve {
     width: 64px;
@@ -289,9 +276,9 @@ li {
 
 }
 
-/*-- End: 顶端购物车栏 > 服务 > null --*/
+/*-- End: 顶端购物车栏        服务        null --*/
 
-/*-- Start: 顶端购物车栏 > 我的小店 > null --*/
+/*-- Start: 顶端购物车栏        我的小店        null --*/
 
 .titleTop .navigation ul li.myShop{
     width: 84px;
@@ -343,7 +330,7 @@ li {
   display: block;
 }
 
-/*-- End: 顶端购物车栏 > 我的小店 > XXX --*/
+/*-- End: 顶端购物车栏        我的小店        XXX --*/
 .header_mid{
     width: 100%;
     height: 144px;
@@ -362,7 +349,7 @@ li {
     margin-right: auto;
 }
 
-/*-- Start: LOGO+Search > LOGO > null --*/
+/*-- Start: LOGO+Search        LOGO        null --*/
 
 .media_screen_1200 .wrap a.logo {
 /*!!!*/
@@ -386,8 +373,8 @@ li {
     background-color: rgba(0, 0, 0, 0);
     */
 }
-/*-- End: LOGO+Search > LOGO > null --*/
-/*-- Start: LOGO + Search > Search > null --*/
+/*-- End: LOGO+Search        LOGO        null --*/
+/*-- Start: LOGO + Search        Search        null --*/
 .header_mid .searchLargebox{
     position: relative;
     width:502px;
@@ -404,7 +391,7 @@ li {
     color: rgb(51,51,51);
 }
 
-/*-- Start: Search >  左 > null --*/
+/*-- Start: Search         左        null --*/
 .searchLargebox .search .searchGoods{
     width:70px;
     height:33px;
@@ -440,13 +427,13 @@ li {
 }
 
 
-/*-- End: Search >  左 > null --*/
+/*-- End: Search         左        null --*/
 
 .searchLargebox .search form{
     width: 500px;
 }
 
-/*-- Start: Search >  中 > null --*/
+/*-- Start: Search         中        null --*/
 
 .searchLargebox .search form input.textSearch{
     color: rgb(153,153,153);
@@ -456,8 +443,8 @@ li {
     width:344px;
     height:21px;
 }
-/*-- End: Search >  中 > null --*/
-/*-- Start: Search > 右 > null --*/
+/*-- End: Search         中        null --*/
+/*-- Start: Search        右        null --*/
 .searchLargebox .search form input.submit{
     background: url("../img/duozhangtudambqmeyde_100x400.png");
     background-position: 27px -57px;
@@ -469,9 +456,9 @@ li {
     border: none;
     background-color: rgb(58,58,58);
 }
-/*-- End: Search > 右 > null --*/
+/*-- End: Search        右        null --*/
 
-/*-- Start: SearchList > null --*/
+/*-- Start: SearchList        null --*/
 .searchLargebox .list{
     margin: 5px 0px 0px -16px;
 }
@@ -481,7 +468,7 @@ li {
     padding: 0px 0px 0px 16px;
     font: normal normal normal normal 12px / 12px tahoma, arial, sans-serif;
 }
-/*-- End: SearchList > null --*/
+/*-- End: SearchList        null --*/
 .wrap .qr_code{
     background: url("../img/qrCodeBox.gif");
     height:144px;
@@ -505,7 +492,7 @@ li {
 /*
 主体
 */
-/*-- Start: 内容主体 > null > null --*/
+/*-- Start: 内容主体        null        null --*/
 .body_wrap{
     color: rgb(51, 51, 51);
     display: block;
@@ -630,7 +617,7 @@ li {
     padding: 0px;
 }/*#UL_15*/
 
-/*-- Start:  > ul 次级导航览整表*/
+/*-- Start:         ul 次级导航览整表*/
 .body_wrap  .primary_nav_li{
     bottom: 0px;
     color: rgb(51, 51, 51);
@@ -651,7 +638,7 @@ li {
     outline: rgb(51, 51, 51) none 0px;
 }/*#LI_16*/
 
-/*-- Start: 顶端购物车栏 > ul 次级导航览整表 > dl每行定义列表。 --*/
+/*-- Start: 顶端购物车栏        ul 次级导航览整表        dl每行定义列表。 --*/
 
  .body_wrap  .primary_nav_li .nav_warp {
     background-position: 0px 0px;
@@ -674,7 +661,7 @@ li {
     padding: 9px 0px 10px 10px;
 }/*#DL_1*/
 
-/*-- Start: ul 次级导航览整表 >  --*/
+/*-- Start: ul 次级导航览整表         --*/
 
 .primary_nav_li .primary_nav_dt {
     color: rgb(51, 51, 51);
@@ -696,7 +683,7 @@ li {
     overflow: hidden;
 }/*#DT_2*/
 
-/*-- Start: ul 次级导航览整表 >  --*/
+/*-- Start: ul 次级导航览整表         --*/
 
 .primary_nav_li .primary_nav_dt_a {
     color: rgb(51, 51, 51);
@@ -710,7 +697,7 @@ li {
     outline: rgb(51, 51, 51) none 0px;
 }/*#A_3*/
 
-/*-- Start: ul 次级导航览整表 >  --*/
+/*-- Start: ul 次级导航览整表         --*/
 
 .primary_nav_li .primary_nav_dd {
     color: rgb(51, 51, 51);
@@ -732,7 +719,7 @@ li {
     overflow: hidden;
 }/*#DD_4*/
 
-/*-- Start: li 单行 > dd  描述 > span 行内元素进行组合 --*/
+/*-- Start: li 单行        dd  描述        span 行内元素进行组合 --*/
 
 .primary_nav_li .primary_nav_dd .primary_nav_dd_span {
     /*color: rgb(51, 51, 51);*/
@@ -822,7 +809,7 @@ li {
     overflow: hidden;
 }/*#A_8*/
 
-/*-- Start: ul 次级导航览整表 > dl每行定义列表 > i  每行底线 --*/
+/*-- Start: ul 次级导航览整表        dl每行定义列表        i  每行底线 --*/
 
 .primary_nav_li  .nav_warp .primary_bottomLine {
     position: absolute;
@@ -836,9 +823,9 @@ li {
     border-top: 1px dashed rgb(207,207,207);
 }
 
-/*-- End: ul 次级导航览整表 > dl每行定义列表 > i  每行底线 --*/
+/*-- End: ul 次级导航览整表        dl每行定义列表        i  每行底线 --*/
 
-/*-- Start: div  中首屏最大块  > div  分块    轮播图& ad  --*/
+/*-- Start: div  中首屏最大块         div  分块    轮播图& ad  --*/
 .mgj_primary .primary_main {
 
     margin-top: 20px;
@@ -863,7 +850,7 @@ li {
 
     background-color: pink;
 }
-/*-- Start: div 分区  左边 > div  分区  内容盒子 > div  分区  轮播  --*/
+/*-- Start: div 分区  左边        div  分区  内容盒子        div  分区  轮播  --*/
 .primary_main_banner .mslide_content_box .mslide_banners {
     position: relative;
     background-color: #fff;
@@ -873,7 +860,7 @@ li {
     background-color: blue;
 }
 
-/*-- Start: div 分区  轮播最外 > div  分区  轮播盒子 > a  从一个页面跳转到另一个  左右按钮  --*/
+/*-- Start: div 分区  轮播最外        div  分区  轮播盒子        a  从一个页面跳转到另一个  左右按钮  --*/
 .primary_main_banner .mslide_content_box a {
 
     position: absolute;
@@ -890,7 +877,7 @@ li {
 
 }
 
-/*-- Start: div 分区  轮播最外 > div  分区  轮播盒子 > div  分区  原点盒子  --*/
+/*-- Start: div 分区  轮播最外        div  分区  轮播盒子        div  分区  原点盒子  --*/
 .primary_main_banner .mslide_content_box .anim_msilde_dot_box {
 
 
@@ -928,7 +915,7 @@ li {
 /*}!*#A_10*!*/
 
 
-/*-- Start: div 分区  首屏内容满宽 > div  分区  右区 > div  分区  ad  --*/
+/*-- Start: div 分区  首屏内容满宽        div  分区  右区        div  分区  ad  --*/
 .mgj_primary   .primary_main_sale {
     overflow: hidden;
     padding-top: 1px;
@@ -940,7 +927,7 @@ li {
 }
 
 
-/*-- Start: div 分区  首屏内容满宽 > div  分区  ad > li  标签定义列表项  ad单表  --*/
+/*-- Start: div 分区  首屏内容满宽        div  分区  ad        li  标签定义列表项  ad单表  --*/
 .mgj_primary .primary_main_sale .sale_li {
 
     margin: 20px 19px 0;/*T - ho - B*/
@@ -950,7 +937,7 @@ li {
     background-color: red;
 }
 
-/*-- Start: div 分区  首屏内容满宽 > div  分区  ad^div > a  跳转    --*/
+/*-- Start: div 分区  首屏内容满宽        div  分区  ad^div        a  跳转    --*/
 .mgj_primary .primary_main_sale .sale_box {
 
     position: relative;
@@ -968,12 +955,12 @@ li {
 
 
 
-/*-- Start: div 分区  右区 >       ul  标签定义无序列表。  广告  --*/
+/*-- Start: div 分区  右区              ul  标签定义无序列表。  广告  --*/
 .primary_main .sale_list {
 
 }
 
-/*-- Start: div 分区  内容主体       > div  分区  616活动满宽  --*/
+/*-- Start: div 分区  内容主体              div  分区  616活动满宽  --*/
 .body_wrap ._site_banner_616_center {
 
     width: 1200px;
@@ -1010,9 +997,9 @@ li {
 
 
 
-/*-- End: 内容主体 > null > null --*/
+/*-- End: 内容主体        null        null --*/
 
-/*-- Start: 主体展示区 > 首区 > null --*/
+/*-- Start: 主体展示区        首区        null --*/
 .media_screen_1200 .special_con {
     width: 1200px;
     height: 300px;
@@ -1080,7 +1067,7 @@ li {
 
 }
 
-/*-- Start: div 分区  首区 > span  小行div的分区作用   倒计时块 > span  时分秒  小型div  --*/
+/*-- Start: div 分区  首区        span  小行div的分区作用   倒计时块        span  时分秒  小型div  --*/
 /*
     !!! 字体处理教科书
 */
@@ -1124,25 +1111,311 @@ li {
 
 }
 
-.special_con .sp_col23_con .sp_col2 {
-
-
+.special_con .sp_col23_con .sp_col2,
+.special_con .sp_col2 a{
+display: block;
+width: 335px;
+height: 300px;
 }
+
+.special_con .sp_col23_con .sp_col3 {
+    width: 240px;
+    height: 300px;
+    overflow: hidden;
+    /*!!! 北景颜色 透明*/
+    background-color: transparent;
+}
+
+.special_con .sp_col3 a{
+
+    display: block;
+}
+
 
 .special_con .sp_col4 {
     float: right;
     width: 360px;
     height: 300px;
     overflow: hidden;
-
     background-color: purple;
+}
+
+.special_con .sp_col4 a.first_child {
+    margin-top: 0;
+}
+.special_con .sp_col4 a {
+    width: 360px;
+    height: 145px;
+    display: block;
+    margin-top: 10px;
+}
+
+/*-- End: 主体展示区        首区        null --*/
+/*-- Start: div 分区  板心     div  分区  专题 --*/
+.media_screen_1200 .wrapFocus {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.wrapFocus .ntpl_1 {
+    display: block;
+    margin-top: 80px;
+
+    width: 1200px;
+    height: 100px;
+}
+
+.wrapFocus .h_title {
+    position: relative;
+    overflow: hidden;
+
+    height: 32px;
+    margin: 15px 0;
+
+    text-align: center;
+    /*background-color: yellow;*/
+}
+
+
+.h_title .ht_bg_con {
+    /*user-select: none;*/
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    z-index: 0;
+    height: 12px;
+    left: 0;
+    margin-top: 10px;
+    float: left;
+    width: 492px;
+    overflow: hidden;
+    _position: relative;
+    _margin-bottom: -22px;
+    /*_top: 0;*/
+    /*_margin-top: 10px;*/
+}
+.wrapFocus .ht_bg_con .hbg_l,
+.wrapFocus .ht_bg_con .hbg_r,
+.wrapFocus .ht_bg_con .hbg_m {
+    background-image: url(../img/focusLine12x60.png);
+    background-repeat: no-repeat;
+    height: 11px;
+    display: block;
+
+}
+
+.h_title .ht_bg_con .hbg_l {
+    padding: 0 0 0 12px;
+    background-position: 0 0;
+    background-repeat: no-repeat!important;
+}
+
+.h_title .ht_bg_con .hbg_r {
+     padding: 0 12px 0 0;
+     background-position: right -24px;
+    background-repeat: no-repeat!important;
+}
+
+.h_title .ht_bg_con .hbg_m {
+     padding: 0;
+     background-position: 0 -12px;
+     background-repeat: repeat-x!important;
+    /*_background-repeat: repeat-x!important;*/
+    /*_width: 1176px;*/
+}
+
+.h_title .ht_t_con {
+    float: left;
+    position: relative;
+    z-index: 2;
+    display: inline-block;
+    _display: inline;
+    _zoom: 1;
+    overflow: hidden;
+    height: 32px;
+    line-height: 32px;
+    font-size: 24px;
+    text-align: center;
+    vertical-align: top;
+    margin: 0;
+    padding: 0 15px;
+    color: transparent;
+    text-indent: -9999px;
+    width: 186px;
+    min-width: 186px;
+    background-position: center 2px;
+    background-repeat: no-repeat;
+    background-size: 186px 25px;
+}
+
+
+
+/*-- Start: div 分区  主体内容     li    专题     div  分区  模块内容  --*/
+
+.ntpl_1 .nptl_con {
+    overflow: hidden;
+    height: 500px;
 
 }
 
 
 
-/*-- End: 主体展示区 > 首区 > null --*/
 
+.ntpl_1  .nptl_con .nptl_col1 {
+    width: 223px;
+    border: 1px solid #ddd;
+    height: 498px;
+    overflow: hidden;
+    float: left;
+    /*background-color: #fff;*/
+}
+
+.ntpl_1 .nptl_col1 .covered_pic {
+    margin: 17px auto 7px;
+    width: 176px;
+    height: 176px;
+    overflow: hidden;
+}
+
+.wrapFocus .nptl_col1  a{
+    display: block;
+
+    /*background-color: red;*/
+}
+.wrapFocus .nptl_col1 img{
+
+    display: block;
+    width: 170px;
+    height: 170px;
+    margin: 3px auto 0;
+    /*background-color: blue;*/
+}
+
+.ntpl_1 .nptl_col1 .btm_txt_con {
+    display: block;
+    width: 210px;
+    margin: 0 auto;
+}
+
+.ntpl_1 .nptl_col1 .btm_txt_con li {
+    float: left;
+    margin: 10px 0 0;
+    height: 20px;
+    width: 70px;
+    text-align: center;
+    overflow: hidden;
+    -o-border-radius: 2px;
+    -webkit-border-radius: 2px;
+}
+
+.ntpl_1 .nptl_col2 {
+    width: 955px;
+}
+
+/*-- Start: li  标签定义列表项目。  第一专题     div   分区  第二列     div  分区  第一行  --*/
+.ntpl_1 .nptl_col2 .nptl_c2_row1 {
+    height: 330px;
+    margin: 0 0 20px;
+
+}
+.ntpl_1 .nptl_c2_row1 .nptl2_mt_slider {
+    overflow: hidden;
+    position: relative;
+}
+
+.ntpl_1 .nptl_c2_row1 .mt_slider_view_con {
+    z-index: 0;
+    position: relative;
+    margin: 0 auto;
+    height: 330px;
+    width: 955px;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+
+.ntpl_1 .nptl2_mt_slider .mt_slider_view_con ul {
+    height: 330px;
+    width: 2000px;
+    white-space: nowrap;
+}
+
+.ntpl_1 .nptl_col2 .nptl_c2_row1 .nptl2_mt_slider .mt_slider_view_con ul li, .ntpl_1 .nptl_col2 .nptl_c2_row1 .nptl2_mt_slider .mt_slider_view_con ul li a {
+    display: block;
+    width: 305px;
+    height: 330px;
+}
+
+.ntpl_1 .nptl_col2 .nptl_c2_row1 .nptl2_mt_slider .mt_slider_view_con ul li {
+    float: left;
+    margin: 0 20px 0 0;
+}
+
+.ntpl_1 .nptl_col2 .nptl_c2_row2 {
+    height: 150px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.ntpl_1 .nptl_col2 .nptl_c2_row2 ul li a img {
+    display: block;
+    float: left;
+    height: 150px;
+    width: 130px;
+
+}
+
+
+/*.nptl_c2_row2 ul li {*/
+    /*background-color: red;*/
+/*}*/
+/*.nptl_c2_row2 ul li a {*/
+    /*background-color: skyblue;*/
+
+/*}*/
+/*.nptl_c2_row2 ul li a>span span {*/
+    /*background-color: pink;*/
+
+/*}*/
+
+.nptl_c2_row2 ul li,
+.nptl_c2_row2 ul  a {
+    width: 305px;
+    height: 150px;
+    display: block;
+}
+
+
+
+
+.ntpl_1 .nptl_col2 .nptl_c2_row2 ul li a .r_desc {
+    display: block;
+    width: 165px;
+    font-family: "宋体",sans-serif;
+    font-size: 14px;
+    padding-top: 50px;
+}
+
+.ntpl_1 .nptl_col2 .nptl_c2_row2 ul li a .r_desc span {
+    display: block;
+    height: 24px;
+    line-height: 24px;
+    text-align: left;
+    overflow: hidden;
+    white-space: nowrap;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    _width: 100%;
+    color: #333;
+}
+
+.ntpl_1 .nptl_col2 .nptl_c2_row2 ul li a .r_desc span.t_btm {
+    color: #999;
+}
+
+
+/*-- End: div 分区  板心     div  分区  专题 --*/
 
 /*最下边*/
 .footLast{
