@@ -15,6 +15,7 @@ body {
     font-size: 12px;
     font-style: normal;
     font-family: "\5FAE\8F6F\96C5\9ED1", Helvetica, sans-serif;
+    -webkit-font-smoothing: antialiased; /*可以让字体平滑更清晰*/
 }
 
 /*字体太小不适合阅读,我们让small的字体恢复12px*/

@@ -8,6 +8,7 @@
 <link rel="stylesheet" href="../css/style.css" type="text/css" charset="UTF-8">
 <link rel="stylesheet" href="../css/commen.css" type="text/css" charset="utf-8">
 <link rel="stylesheet" href="../css/reset.min.css" type="text/css" charset="utf-8">
+
 <div class="rightNavigation"></div>
 <!-- S: 顶端购物车栏    XXX    XXX -->
 <div class="titleTop">
@@ -290,18 +291,26 @@
                 <div class="primary_main fr">
                     <div class="primary_main_banner J_mait_dataLazy fl" id="j_primary_main_banner">
                         <!-- Start: div 轮播最满宽    轮播&&ad    轮播内容盒子 -->
-                        <div class="mslide_content_box" id="pc_banner_slider" style="width:715px;height:530px;">
-                            <a href="javascript:;"></a>
-                            <a href="javascript:;"></a>
-                            <a href="javascript:;"></a>
-                            <a href="javascript:;"></a>
-                            <a href="javascript:;"></a>
-                            <div class="mslide_banners">
+                        <div class="mslide_content_box" id="box" style="width:715px;height:530px;">
+
+                            <div class="mslide_banners" id="banner">
+                                <a href="javascript:;"><img src="../img/upload_ie4dmzdggmzdszjuhezdimbqgiyde_715x530.jpg" alt=""></a>
+                                <a href="javascript:;"><img src="../img/upload_ifqtcnjzmztgmmruhezdambqgyyde_715x530.jpg" alt=""></a>
+                                <a href="javascript:;"><img src="../img/upload_ifrdmztggy4gmy3fhazdambqmeyde_715x530.jpg" alt=""></a>
+                                <a href="javascript:;"><img src="../img/upload_ifrgemddmfqtczbuhezdambqmeyde_715x530.jpg" alt=""></a>
 
                             </div>
                             <a class="msilde_toggle_btn msilde_prev_btn" href="javascript:;" title="上一张"></a>
                             <a class="msilde_toggle_btn msilde_next_btn" href="javascript:;" title="下一张"></a>
-                            <div class="msilde_dot_box anim_msilde_dot_box clearfix"></div>
+                            <div class="msilde_dot_box anim_msilde_dot_box clearfix" id="point">
+                                <a href="javascript:;" class="dot_default fl"><img src="../img/lunboPoint.png" alt="" class="dot_show_img"></a><a
+                                    href="javascript:;" class="dot_default fl"><img src="../img/lunboPoint.png" alt=""
+                                                                                    class="dot_show_img"></a><a
+                                    href="javascript:;" class="dot_default fl"><img src="../img/lunboPoint.png" alt=""
+                                                                                    class="dot_show_img"></a><a
+                                    href="javascript:;" class="dot_default fl"><img src="../img/lunboPoint.png" alt=""
+                                                                                    class="dot_show_img"></a>
+                            </div>
                         </div>
 
                     </div>
@@ -718,5 +727,12 @@
         </ul>
     </div>
 </div>
+
 </body>
+<script src="../js/getCssSetCss.js" charset="utf-8" type="text/javascript"></script>
+<script src="../js/utils.js" charset="utf-8" type="text/javascript"></script>
+<script src="../js/lunbo.js" charset="utf-8" type="text/javascript"></script>
+<script src="../js/animate.js" charset="utf-8" type="text/javascript"></script>
+
+
 </html>
