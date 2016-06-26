@@ -815,15 +815,12 @@ li {
 
 /*-- Start: div  中首屏最大块         div  分块    轮播图& ad  --*/
 .mgj_primary .primary_main {
-
     margin-top: 20px;
     width: 975px;
     height: 530px;
-
 }
 
 .primary_main_banner {
-
     width: 715px;
     margin-left: 20px;
     height: 530px;
@@ -834,13 +831,36 @@ li {
 .primary_main_banner .mslide_content_box {
     position: relative;
     overflow: hidden;
+
 }
-/*-- Start: div 分区  左边        div  分区  内容盒子        div  分区  轮播  --*/
+/*-- Start: div 分区  左边        div  分区  内容盒子        div  分区  轮播img^a^div轮播图外面轮廓位置div  --*/
 .primary_main_banner .mslide_content_box .mslide_banners {
     position: relative;
-    background-color: #fff;
+    /*background-color: #fff;*/
     width: 100%;
     height: 100%;
+
+}
+
+.primary_main_banner .mslide_banners .mslide_banner {
+    display: block;
+    width: 100%;
+    height: 100%;
+    /* !!!! */
+    position: absolute;
+    /*top: 0;*/
+    /*left: 0;*/
+}
+
+/*.primary_main_banner .mslide_banners .mslide_banner.top{*/
+    /*!*z-index: 1;*!*/
+/*}*/
+
+.primary_main_banner .mslide_banners .mslide_banner img{
+    display: block;
+
+    width: 715px;
+    height: 530px;
 
 }
 
@@ -848,16 +868,16 @@ li {
 /*-- Start: div 分区  轮播最外        div  分区  轮播盒子        a  从一个页面跳转到另一个  左右按钮  --*/
 
 
-.mslide_content_box .mslide_banner {
-    display: none;
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 0;
-    /*overflow: hidden;*/
-}
+/*.mslide_content_box .mslide_banner {*/
+    /*display: none;*/
+    /*width: 100%;*/
+    /*height: 100%;*/
+    /*position: absolute;*/
+    /*top: 0;*/
+    /*left: 0;*/
+    /*z-index: 0;*/
+    /*!*overflow: hidden;*!*/
+/*}*/
 
 
 
@@ -867,6 +887,8 @@ li {
     width: 100%;
     height: 100%;
 }
+
+
 
 
 /*.primary_main_banner .mslide_banners a{*/
