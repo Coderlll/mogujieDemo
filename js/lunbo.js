@@ -60,7 +60,7 @@ var moveLeft = function () {
 
 
     window.setCss(aAas[step],'z-index',2);
-    window.setCss(aAas[step], 'opacity', .5);
+    window.setCss(aAas[step], 'opacity', .3);
 
 
     window.moveAnimate(aAas[step], {"left":  0,"opacity":1}, 400,function () {
@@ -88,7 +88,7 @@ var moveLeft = function () {
     window.setCss(aAas[stepPrev],'z-index',1);
     /* CSS ->      opacity: .5;
      */
-    window.setCss(aAas[stepPrev],'opacity',.8);
+    window.setCss(aAas[stepPrev],'opacity',.4);
 
     // window.setCss(aAas[stepPrev],'z-index',0);
     window.moveAnimate(aAas[stepPrev], {"left": -178.75,'opacity':.1}, 400, function () {
