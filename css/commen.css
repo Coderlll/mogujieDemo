@@ -1,0 +1,10 @@
+
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+.border_left{
+    border-left: 1px solid #ddd;
+}
